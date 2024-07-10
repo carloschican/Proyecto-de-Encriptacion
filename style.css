@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+   --color-primario: #ebf4f6;
+   --color-secundario: #088395;
+   --color-terciario: #37b7c3;
+
+   --fuente-montserrat: 'Montserrat', sans-serif;
+   --fuente-Krona: 'Krona One', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    font-family: var(--fuente-montserrat);
+    background-color: var(--color-primario);
+}
+
+.presentacion {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    background-color: var(--color-primario);
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 80vw;
+    padding: 15%;
+    color: rgb(34, 13, 129);
+    font-weight: 100;
+}
+
+.titulo {
+    color: #071952;
+    text-align: right;
+    border-radius: 8%;
+    font-family: var(--fuente-Krona);
+    font-size: 50px;
+    margin-bottom: 20px;
+    justify-content: right;
+}
+
+.form_box {
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 2px 1px 1px 1px #e7b0b7;
+    background-color: rgb(160, 168, 212);
+    border-radius: 1em;
+    width: 100%;
+    max-width: 600px;
+    font-family: var(--fuente-Krona);
+}
+
+.msg_box {
+    background-color: #b3b8c7;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 1em;
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    font-family: var(--fuente-Krona);
+    box-shadow: 2px 2px 2px 1px #849b5a;
+}
+
+.btn {
+    border: 0;
+    color: #ebf4f6;
+    font-weight: bold;
+    background-color: #071952;
+    padding: 10px;
+    margin-top: 10px;
+    border-radius: 0.5em;
+    flex-direction: column;
+    font-family: var(--fuente-montserrat);
+}
+
+.text-input {
+    border-radius: 0.5em;
+    border: 3px solid #ebf4f6;
+    display: block;
+    padding: 0.9em;
+    width: 100%;
+    height: 50px;
+}
+
+.footer_ya {
+    background-color: #088395;
+    padding: 1.5rem;
+    color: black;
+    font-size: 1rem;
+    text-align: center;
+    justify-content: end;
+    width: 100%;
+    font-family: var(--fuente-montserrat);
+    
+    bottom: 0;
+}
+
+.presentacion_imagen {
+    width: 20%;
+    text-decoration: none;
+    font-size: 120%;
+}
+
+.btn:hover{
+  background-color: #088395;
+}
